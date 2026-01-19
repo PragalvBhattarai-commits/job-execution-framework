@@ -1,0 +1,16 @@
+Problem Context:
+You are building a job execution framework similar to what schedulers (Airflow, Quartz, Kubernetes Jobs) do internally.
+All jobs follow the same lifecycle, but each job performs different work.
+
+Functional Requirements:
+
+Every job must:
+Initialize resources
+Execute business logic
+Handle cleanup
+Report status
+
+Different job types:
+Data Import Job
+Report Generation Job
+Email Notification Job
